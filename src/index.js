@@ -15,6 +15,12 @@ console.log(hoy);
 const baseUrl = "https://platzi-avo.vercel.app";
 const app = document.querySelector("#app")
 
+app.addEventListener("click", (event) => {
+   if (event.target.nodeName === "H2"){
+    window.alert("hola");
+   }
+});
+
 const formatPrice = (price) => {
 
     const newPrice = new window.Intl.NumberFormat('en-EN', {
@@ -60,6 +66,7 @@ window
             const tittle = document.createElement('h2')
             tittle.textContent = item.name
             tittle.className = "tittle"
+
 
             //crear precio
             const price = document.createElement('div')
