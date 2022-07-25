@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kauve.github.io/paltas-kauve",
+  "homepage": "",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
