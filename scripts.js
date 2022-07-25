@@ -3,7 +3,7 @@
  * When you're ready to start on your site, clear the file. Happy hacking!
  **/
 
-import moment from '../_snowpack/pkg/moment.js';
+import moment from './_snowpack/pkg/moment.js';
 moment.locale('es');
 
 const hoy = moment();
